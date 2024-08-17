@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+<div>
+    <h1>Student Registration</h1>
+    <p><b>Please fill out the form below to register as a student</b></p>
+</div>
+
+<form>
+
+    <label for="fullname">FullName</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter Your Name" required><br><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your Email id" required><br><br>
+
+    <label for="dob">Date-Of-Birth</label><br>
+    <input type="date" id="dob" name="dob" min="1995-01-01" max="2024-01-01"><br><br>
+
+    <label for="phone">Phone-Number</label><br>
+    <input type="number" id="phone" name="phone" maxlength="10"><br><br>
+
+    <label for="">Gender:-</label><br><br>
+
+    <input type="radio" id="Gender" name="Gender" value="Male">
+    <label for="Male">Male</label><br>
+
+    <input type="radio" name="Gender" id="Gender" value="Female">
+    <label for="Female">Female</label><br>
+
+    <input type="radio" name="Gender" id="Gender" value="Other">
+    <label for="Other">Other</label><br><br>
+
+    <label for="">Course Intrested:-</label><br><br>
+
+    <input type="checkbox" name="Course" id="HTML" value="HTML">
+    <label for="HTML">HTML</label><br>
+
+    <input type="checkbox" name="Course" id="CSS" value="CSS">
+    <label for="CSS">CSS</label><br>
+
+    <input type="checkbox" name="Course" id="JS" value="JS">
+    <label for="JS">JAVA-Script</label><br>
+
+    <input type="checkbox" name="Course" id="PYTHON" value="PYTHON">
+    <label for="PYTHON">PYTHON</label><br><br>
+
+    <label for="cmt">Comments</label>
+    <textarea name="Comments" id="Comments" rows="10" cols="40"></textarea><br><br>
+
+    <button>Register</button><br><br>
+
+    <h1>List of registered students.</h1>
+
+    <table border="2">
+        <thead>
+            <th>Student-Id</th>
+            <th>Full-Name</th>
+            <th>Email</th>
+            <th>Date-Of Birth</th>
+            <th>Phone-Number</th>
+            <th>Gender</th>
+            <th>Course-Intrested</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Sivakumar</td>
+                <td>sivakumar11@gmail.com</td>
+                <td>11-08-2001</td>
+                <td>1234567890</td>
+                <td>Male</td>
+                <td>HTML,CSS,JAVA-SCRIPT</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Mohamed Nalim</td>
+                <td>nalim008@gmail.com</td>
+                <td>08-12-2001</td>
+                <td>0987654321</td>
+                <td>Male</td>
+                <td>HTML,CSS,JAVA-SCRIPT,PYTHON</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Nixon</td>
+                <td>nixon29@gmail.com</td>
+                <td>29-07-2001</td>
+                <td>6789012345</td>
+                <td>Male</td>
+                <td>HTML,CSS,JAVA-SCRIPT</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Rishi</td>
+                <td>rishi08@gmail.com</td>
+                <td>08-07-2001</td>
+                <td>1234567890</td>
+                <td>Male</td>
+                <td>HTML,CSS,JAVA-SCRIPT,PYTHON</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Saherul</td>
+                <td>saherul01@gmail.com</td>
+                <td>01-08-2001</td>
+                <td>1234567890</td>
+                <td>Male</td>
+                <td>HTML,CSS,JAVA-SCRIPT</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+</form>
+
+
+    
+</body>
+</html>
